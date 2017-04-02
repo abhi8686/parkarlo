@@ -6,6 +6,7 @@ class CreateParkingSpaces < ActiveRecord::Migration
       t.decimal :longitude
       t.integer :cost
       t.boolean :status
+      t.text :address
       t.timestamps null: false
     end
   end

@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
+  get 'landing/index'
+  root 'landing#index'
   devise_for :users
+
+  resources :parking_spaces, only: [:create, :new]
+  get "parking_spaces/search"
+  post "parking_spaces/search_api"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
