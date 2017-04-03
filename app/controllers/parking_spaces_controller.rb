@@ -8,7 +8,7 @@ class ParkingSpacesController < ApplicationController
 
   def search_api
     # binding.pry
-    spaces = ParkingSpace.within(1, :origin =>[params[:lat], params[:long]])
+    spaces = ParkingSpace.within(900, :origin =>[params[:lat], params[:long]])
     render json: {status: 200, data: spaces }
   end
 

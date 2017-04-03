@@ -12568,3 +12568,1234 @@ Completed 200 OK in 25ms (Views: 14.2ms | ActiveRecord: 2.4ms)
   [1m[36m (0.5ms)[0m  [1mBEGIN[0m
   [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.415178"], ["longitude", "78.450246"], ["address", "Barbeque Nation"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:39.569355"], ["updated_at", "2017-04-03 18:22:39.569355"]]
   [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:44.885108"], ["updated_at", "2017-04-03 18:22:44.885108"]]
+  [1m[35m (30.3ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:44.924944"], ["updated_at", "2017-04-03 18:22:44.924944"]]
+  [1m[36m (11.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:44.947008"], ["updated_at", "2017-04-03 18:22:44.947008"]]
+  [1m[35m (11.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:44.969972"], ["updated_at", "2017-04-03 18:22:44.969972"]]
+  [1m[36m (9.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:44.991821"], ["updated_at", "2017-04-03 18:22:44.991821"]]
+  [1m[35m (11.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.013870"], ["updated_at", "2017-04-03 18:22:45.013870"]]
+  [1m[36m (11.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (31.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.035990"], ["updated_at", "2017-04-03 18:22:45.035990"]]
+  [1m[35m (58.7ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.136048"], ["updated_at", "2017-04-03 18:22:45.136048"]]
+  [1m[36m (11.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4346731"], ["longitude", "78.3865901"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.157982"], ["updated_at", "2017-04-03 18:22:45.157982"]]
+  [1m[35m (12.0ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.440366"], ["longitude", "78.393559"], ["address", "Ginger Court Restaurant & Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.180401"], ["updated_at", "2017-04-03 18:22:45.180401"]]
+  [1m[36m (11.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.434512"], ["longitude", "78.3870547"], ["address", "News Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.203225"], ["updated_at", "2017-04-03 18:22:45.203225"]]
+  [1m[35m (10.7ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4345352"], ["longitude", "78.3864202"], ["address", "McDonald's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.224916"], ["updated_at", "2017-04-03 18:22:45.224916"]]
+  [1m[36m (11.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4415008"], ["longitude", "78.3579213"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.247141"], ["updated_at", "2017-04-03 18:22:45.247141"]]
+  [1m[35m (11.4ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.269263"], ["updated_at", "2017-04-03 18:22:45.269263"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4441826"], ["longitude", "78.3871793"], ["address", "Amantran The Cuisine"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.291866"], ["updated_at", "2017-04-03 18:22:45.291866"]]
+  [1m[35m (10.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.313769"], ["updated_at", "2017-04-03 18:22:45.313769"]]
+  [1m[36m (11.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.450508"], ["longitude", "78.382241"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.335932"], ["updated_at", "2017-04-03 18:22:45.335932"]]
+  [1m[35m (11.7ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4470209"], ["longitude", "78.3784238"], ["address", "Shamrock The Irish Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.358245"], ["updated_at", "2017-04-03 18:22:45.358245"]]
+  [1m[36m (11.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4955476"], ["longitude", "78.4015274"], ["address", "Raghav"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.380385"], ["updated_at", "2017-04-03 18:22:45.380385"]]
+  [1m[35m (12.2ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.416204"], ["longitude", "78.416921"], ["address", "SO The Sky Kitchen!"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:45.402966"], ["updated_at", "2017-04-03 18:22:45.402966"]]
+  [1m[36m (11.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:50.747732"], ["updated_at", "2017-04-03 18:22:50.747732"]]
+  [1m[35m (24.7ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:50.781071"], ["updated_at", "2017-04-03 18:22:50.781071"]]
+  [1m[36m (11.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:50.803256"], ["updated_at", "2017-04-03 18:22:50.803256"]]
+  [1m[35m (10.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4394241"], ["longitude", "78.4748989"], ["address", "Manasarovar The Fern"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:50.825948"], ["updated_at", "2017-04-03 18:22:50.825948"]]
+  [1m[36m (9.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:50.847668"], ["updated_at", "2017-04-03 18:22:50.847668"]]
+  [1m[35m (10.5ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:50.869941"], ["updated_at", "2017-04-03 18:22:50.869941"]]
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:50.892223"], ["updated_at", "2017-04-03 18:22:50.892223"]]
+  [1m[35m (10.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:50.914263"], ["updated_at", "2017-04-03 18:22:50.914263"]]
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:50.936335"], ["updated_at", "2017-04-03 18:22:50.936335"]]
+  [1m[35m (11.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4130944"], ["longitude", "78.4662206"], ["address", "Prasads"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:50.958761"], ["updated_at", "2017-04-03 18:22:50.958761"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:50.980929"], ["updated_at", "2017-04-03 18:22:50.980929"]]
+  [1m[35m (10.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:51.003215"], ["updated_at", "2017-04-03 18:22:51.003215"]]
+  [1m[36m (10.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (26.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:51.026050"], ["updated_at", "2017-04-03 18:22:51.026050"]]
+  [1m[35m (50.1ms)[0m  COMMIT
+  [1m[36m (0.8ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:51.114894"], ["updated_at", "2017-04-03 18:22:51.114894"]]
+  [1m[36m (10.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:51.136453"], ["updated_at", "2017-04-03 18:22:51.136453"]]
+  [1m[35m (11.2ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4346731"], ["longitude", "78.3865901"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:51.158854"], ["updated_at", "2017-04-03 18:22:51.158854"]]
+  [1m[36m (11.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.422903"], ["longitude", "78.462356"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:51.180899"], ["updated_at", "2017-04-03 18:22:51.180899"]]
+  [1m[35m (11.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.440366"], ["longitude", "78.393559"], ["address", "Ginger Court Restaurant & Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:51.203460"], ["updated_at", "2017-04-03 18:22:51.203460"]]
+  [1m[36m (43.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.434512"], ["longitude", "78.3870547"], ["address", "News Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:51.258959"], ["updated_at", "2017-04-03 18:22:51.258959"]]
+  [1m[35m (10.8ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.415178"], ["longitude", "78.450246"], ["address", "Barbeque Nation"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:22:51.281182"], ["updated_at", "2017-04-03 18:22:51.281182"]]
+  [1m[36m (10.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.596229"], ["updated_at", "2017-04-03 18:23:01.596229"]]
+  [1m[35m (10.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.614632"], ["updated_at", "2017-04-03 18:23:01.614632"]]
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.636976"], ["updated_at", "2017-04-03 18:23:01.636976"]]
+  [1m[35m (10.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.660704"], ["updated_at", "2017-04-03 18:23:01.660704"]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.681317"], ["updated_at", "2017-04-03 18:23:01.681317"]]
+  [1m[35m (12.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.703864"], ["updated_at", "2017-04-03 18:23:01.703864"]]
+  [1m[36m (9.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.726204"], ["updated_at", "2017-04-03 18:23:01.726204"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4394241"], ["longitude", "78.4748989"], ["address", "Manasarovar The Fern"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.748271"], ["updated_at", "2017-04-03 18:23:01.748271"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.770639"], ["updated_at", "2017-04-03 18:23:01.770639"]]
+  [1m[35m (10.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.792609"], ["updated_at", "2017-04-03 18:23:01.792609"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.814922"], ["updated_at", "2017-04-03 18:23:01.814922"]]
+  [1m[35m (11.2ms)[0m  COMMIT
+  [1m[36m (2.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.838378"], ["updated_at", "2017-04-03 18:23:01.838378"]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.859514"], ["updated_at", "2017-04-03 18:23:01.859514"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4346731"], ["longitude", "78.3865901"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.881698"], ["updated_at", "2017-04-03 18:23:01.881698"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.440366"], ["longitude", "78.393559"], ["address", "Ginger Court Restaurant & Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.904213"], ["updated_at", "2017-04-03 18:23:01.904213"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.926076"], ["updated_at", "2017-04-03 18:23:01.926076"]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.434512"], ["longitude", "78.3870547"], ["address", "News Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.948185"], ["updated_at", "2017-04-03 18:23:01.948185"]]
+  [1m[35m (11.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4345352"], ["longitude", "78.3864202"], ["address", "McDonald's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.970356"], ["updated_at", "2017-04-03 18:23:01.970356"]]
+  [1m[36m (11.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4130944"], ["longitude", "78.4662206"], ["address", "Prasads"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:01.992861"], ["updated_at", "2017-04-03 18:23:01.992861"]]
+  [1m[35m (10.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (30.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4415008"], ["longitude", "78.3579213"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:02.014844"], ["updated_at", "2017-04-03 18:23:02.014844"]]
+  [1m[36m (69.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.488567"], ["updated_at", "2017-04-03 18:23:07.488567"]]
+  [1m[35m (18.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.515373"], ["updated_at", "2017-04-03 18:23:07.515373"]]
+  [1m[36m (10.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.537567"], ["updated_at", "2017-04-03 18:23:07.537567"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.559556"], ["updated_at", "2017-04-03 18:23:07.559556"]]
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.582549"], ["updated_at", "2017-04-03 18:23:07.582549"]]
+  [1m[35m (9.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.604198"], ["updated_at", "2017-04-03 18:23:07.604198"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.625848"], ["updated_at", "2017-04-03 18:23:07.625848"]]
+  [1m[35m (10.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.659681"], ["updated_at", "2017-04-03 18:23:07.659681"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.681622"], ["updated_at", "2017-04-03 18:23:07.681622"]]
+  [1m[35m (11.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.704019"], ["updated_at", "2017-04-03 18:23:07.704019"]]
+  [1m[36m (11.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.726459"], ["updated_at", "2017-04-03 18:23:07.726459"]]
+  [1m[35m (9.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.748379"], ["updated_at", "2017-04-03 18:23:07.748379"]]
+  [1m[36m (11.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4346731"], ["longitude", "78.3865901"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.770822"], ["updated_at", "2017-04-03 18:23:07.770822"]]
+  [1m[35m (10.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.792806"], ["updated_at", "2017-04-03 18:23:07.792806"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.440366"], ["longitude", "78.393559"], ["address", "Ginger Court Restaurant & Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.815227"], ["updated_at", "2017-04-03 18:23:07.815227"]]
+  [1m[35m (10.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (27.7ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.434512"], ["longitude", "78.3870547"], ["address", "News Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.837379"], ["updated_at", "2017-04-03 18:23:07.837379"]]
+  [1m[36m (62.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4345352"], ["longitude", "78.3864202"], ["address", "McDonald's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.937380"], ["updated_at", "2017-04-03 18:23:07.937380"]]
+  [1m[35m (11.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4415008"], ["longitude", "78.3579213"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.959683"], ["updated_at", "2017-04-03 18:23:07.959683"]]
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4441826"], ["longitude", "78.3871793"], ["address", "Amantran The Cuisine"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:07.981946"], ["updated_at", "2017-04-03 18:23:07.981946"]]
+  [1m[35m (11.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.415178"], ["longitude", "78.450246"], ["address", "Barbeque Nation"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:08.004278"], ["updated_at", "2017-04-03 18:23:08.004278"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.340593"], ["updated_at", "2017-04-03 18:23:13.340593"]]
+  [1m[35m (20.9ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (29.7ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.371329"], ["updated_at", "2017-04-03 18:23:13.371329"]]
+  [1m[36m (59.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.471004"], ["updated_at", "2017-04-03 18:23:13.471004"]]
+  [1m[35m (11.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.493792"], ["updated_at", "2017-04-03 18:23:13.493792"]]
+  [1m[36m (9.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.515572"], ["updated_at", "2017-04-03 18:23:13.515572"]]
+  [1m[35m (10.3ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.537754"], ["updated_at", "2017-04-03 18:23:13.537754"]]
+  [1m[36m (11.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.560358"], ["updated_at", "2017-04-03 18:23:13.560358"]]
+  [1m[35m (10.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.582201"], ["updated_at", "2017-04-03 18:23:13.582201"]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4346731"], ["longitude", "78.3865901"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.604400"], ["updated_at", "2017-04-03 18:23:13.604400"]]
+  [1m[35m (10.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.440366"], ["longitude", "78.393559"], ["address", "Ginger Court Restaurant & Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.626836"], ["updated_at", "2017-04-03 18:23:13.626836"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.434512"], ["longitude", "78.3870547"], ["address", "News Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.648901"], ["updated_at", "2017-04-03 18:23:13.648901"]]
+  [1m[35m (10.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4345352"], ["longitude", "78.3864202"], ["address", "McDonald's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.670960"], ["updated_at", "2017-04-03 18:23:13.670960"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.693094"], ["updated_at", "2017-04-03 18:23:13.693094"]]
+  [1m[35m (11.2ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4415008"], ["longitude", "78.3579213"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.715734"], ["updated_at", "2017-04-03 18:23:13.715734"]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4441826"], ["longitude", "78.3871793"], ["address", "Amantran The Cuisine"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.738340"], ["updated_at", "2017-04-03 18:23:13.738340"]]
+  [1m[35m (10.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4955476"], ["longitude", "78.4015274"], ["address", "Raghav"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.760023"], ["updated_at", "2017-04-03 18:23:13.760023"]]
+  [1m[36m (11.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.450508"], ["longitude", "78.382241"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.782278"], ["updated_at", "2017-04-03 18:23:13.782278"]]
+  [1m[35m (10.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4470209"], ["longitude", "78.3784238"], ["address", "Shamrock The Irish Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.804324"], ["updated_at", "2017-04-03 18:23:13.804324"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.432969"], ["longitude", "78.417398"], ["address", "Southern Spice (since 1999)"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.826656"], ["updated_at", "2017-04-03 18:23:13.826656"]]
+  [1m[35m (11.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.416204"], ["longitude", "78.416921"], ["address", "SO The Sky Kitchen!"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:13.848863"], ["updated_at", "2017-04-03 18:23:13.848863"]]
+  [1m[36m (11.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.423637"], ["longitude", "78.487901"], ["address", "Courtyard by Marriott Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.266730"], ["updated_at", "2017-04-03 18:23:19.266730"]]
+  [1m[35m (28.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.303068"], ["updated_at", "2017-04-03 18:23:19.303068"]]
+  [1m[36m (4.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.314321"], ["updated_at", "2017-04-03 18:23:19.314321"]]
+  [1m[35m (3.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4394241"], ["longitude", "78.4748989"], ["address", "Manasarovar The Fern"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.325470"], ["updated_at", "2017-04-03 18:23:19.325470"]]
+  [1m[36m (12.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.3922158"], ["longitude", "78.4775251"], ["address", "Luminous One Continent"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.348555"], ["updated_at", "2017-04-03 18:23:19.348555"]]
+  [1m[35m (10.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.371326"], ["updated_at", "2017-04-03 18:23:19.371326"]]
+  [1m[36m (10.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4130944"], ["longitude", "78.4662206"], ["address", "Prasads"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.393806"], ["updated_at", "2017-04-03 18:23:19.393806"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.416375"], ["updated_at", "2017-04-03 18:23:19.416375"]]
+  [1m[36m (10.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (30.7ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.438125"], ["updated_at", "2017-04-03 18:23:19.438125"]]
+  [1m[35m (47.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4404988"], ["longitude", "78.4975694"], ["address", "Time Square - The Landmark Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.526698"], ["updated_at", "2017-04-03 18:23:19.526698"]]
+  [1m[36m (11.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.549120"], ["updated_at", "2017-04-03 18:23:19.549120"]]
+  [1m[35m (9.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.571360"], ["updated_at", "2017-04-03 18:23:19.571360"]]
+  [1m[36m (10.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.593572"], ["updated_at", "2017-04-03 18:23:19.593572"]]
+  [1m[35m (11.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.616028"], ["updated_at", "2017-04-03 18:23:19.616028"]]
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.638063"], ["updated_at", "2017-04-03 18:23:19.638063"]]
+  [1m[35m (11.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.406311"], ["longitude", "78.463171"], ["address", "Hotel Sandhya"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.660160"], ["updated_at", "2017-04-03 18:23:19.660160"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.682469"], ["updated_at", "2017-04-03 18:23:19.682469"]]
+  [1m[35m (11.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.422903"], ["longitude", "78.462356"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.704707"], ["updated_at", "2017-04-03 18:23:19.704707"]]
+  [1m[36m (10.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.727074"], ["updated_at", "2017-04-03 18:23:19.727074"]]
+  [1m[35m (11.2ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:19.749021"], ["updated_at", "2017-04-03 18:23:19.749021"]]
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+
+
+Started POST "/parking_spaces/search_api" for 127.0.0.1 at 2017-04-03 23:53:37 +0530
+Processing by ParkingSpacesController#search_api as */*
+  Parameters: {"lat"=>"17.385044", "long"=>"78.486671"}
+Geokit is using the domain: localhost
+  [1m[35mParkingSpace Load (26.6ms)[0m  SELECT "parking_spaces".* FROM "parking_spaces" WHERE (parking_spaces.latitude IS NOT NULL AND parking_spaces.longitude IS NOT NULL) AND (parking_spaces.latitude>9.298476717947054 AND parking_spaces.latitude<25.47161128205294 AND parking_spaces.longitude>70.0185002417737 AND parking_spaces.longitude<86.95484175822632) AND ((
+          (ACOS(least(1,COS(0.30342625840408505)*COS(1.3698508278795505)*COS(RADIANS(parking_spaces.latitude))*COS(RADIANS(parking_spaces.longitude))+
+          COS(0.30342625840408505)*SIN(1.3698508278795505)*COS(RADIANS(parking_spaces.latitude))*SIN(RADIANS(parking_spaces.longitude))+
+          SIN(0.30342625840408505)*SIN(RADIANS(parking_spaces.latitude))))*6376.77271)
+          <= 900))
+Completed 200 OK in 984ms (Views: 927.2ms | ActiveRecord: 33.3ms)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.180674"], ["updated_at", "2017-04-03 18:23:55.180674"]]
+  [1m[35m (38.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.228789"], ["updated_at", "2017-04-03 18:23:55.228789"]]
+  [1m[36m (10.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.250845"], ["updated_at", "2017-04-03 18:23:55.250845"]]
+  [1m[35m (11.0ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.271640"], ["updated_at", "2017-04-03 18:23:55.271640"]]
+  [1m[36m (3.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.282791"], ["updated_at", "2017-04-03 18:23:55.282791"]]
+  [1m[35m (13.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.304806"], ["updated_at", "2017-04-03 18:23:55.304806"]]
+  [1m[36m (3.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.315974"], ["updated_at", "2017-04-03 18:23:55.315974"]]
+  [1m[35m (2.7ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.327013"], ["updated_at", "2017-04-03 18:23:55.327013"]]
+  [1m[36m (13.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.350155"], ["updated_at", "2017-04-03 18:23:55.350155"]]
+  [1m[35m (11.6ms)[0m  COMMIT
+  [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.373367"], ["updated_at", "2017-04-03 18:23:55.373367"]]
+  [1m[36m (11.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.393667"], ["updated_at", "2017-04-03 18:23:55.393667"]]
+  [1m[35m (3.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.404963"], ["updated_at", "2017-04-03 18:23:55.404963"]]
+  [1m[36m (3.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (2.5ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4346731"], ["longitude", "78.3865901"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.420025"], ["updated_at", "2017-04-03 18:23:55.420025"]]
+  [1m[35m (88.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (31.7ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.516796"], ["updated_at", "2017-04-03 18:23:55.516796"]]
+  [1m[36m (59.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.440366"], ["longitude", "78.393559"], ["address", "Ginger Court Restaurant & Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.616795"], ["updated_at", "2017-04-03 18:23:55.616795"]]
+  [1m[35m (11.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.434512"], ["longitude", "78.3870547"], ["address", "News Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.639092"], ["updated_at", "2017-04-03 18:23:55.639092"]]
+  [1m[36m (12.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4345352"], ["longitude", "78.3864202"], ["address", "McDonald's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.660690"], ["updated_at", "2017-04-03 18:23:55.660690"]]
+  [1m[35m (3.0ms)[0m  COMMIT
+  [1m[36m (1.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4415008"], ["longitude", "78.3579213"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.673454"], ["updated_at", "2017-04-03 18:23:55.673454"]]
+  [1m[36m (8.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4441826"], ["longitude", "78.3871793"], ["address", "Amantran The Cuisine"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.695093"], ["updated_at", "2017-04-03 18:23:55.695093"]]
+  [1m[35m (10.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.415178"], ["longitude", "78.450246"], ["address", "Barbeque Nation"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:23:55.717551"], ["updated_at", "2017-04-03 18:23:55.717551"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.044522"], ["updated_at", "2017-04-03 18:24:06.044522"]]
+  [1m[35m (20.0ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.072751"], ["updated_at", "2017-04-03 18:24:06.072751"]]
+  [1m[36m (2.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.083197"], ["updated_at", "2017-04-03 18:24:06.083197"]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.094588"], ["updated_at", "2017-04-03 18:24:06.094588"]]
+  [1m[36m (11.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.117589"], ["updated_at", "2017-04-03 18:24:06.117589"]]
+  [1m[35m (10.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.138886"], ["updated_at", "2017-04-03 18:24:06.138886"]]
+  [1m[36m (11.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4394241"], ["longitude", "78.4748989"], ["address", "Manasarovar The Fern"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.163025"], ["updated_at", "2017-04-03 18:24:06.163025"]]
+  [1m[35m (9.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.184681"], ["updated_at", "2017-04-03 18:24:06.184681"]]
+  [1m[36m (10.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4346731"], ["longitude", "78.3865901"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.206560"], ["updated_at", "2017-04-03 18:24:06.206560"]]
+  [1m[35m (10.2ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.440366"], ["longitude", "78.393559"], ["address", "Ginger Court Restaurant & Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.228781"], ["updated_at", "2017-04-03 18:24:06.228781"]]
+  [1m[36m (10.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.251155"], ["updated_at", "2017-04-03 18:24:06.251155"]]
+  [1m[35m (10.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.434512"], ["longitude", "78.3870547"], ["address", "News Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.273402"], ["updated_at", "2017-04-03 18:24:06.273402"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.295371"], ["updated_at", "2017-04-03 18:24:06.295371"]]
+  [1m[35m (11.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4345352"], ["longitude", "78.3864202"], ["address", "McDonald's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.317594"], ["updated_at", "2017-04-03 18:24:06.317594"]]
+  [1m[36m (10.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4441826"], ["longitude", "78.3871793"], ["address", "Amantran The Cuisine"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.340523"], ["updated_at", "2017-04-03 18:24:06.340523"]]
+  [1m[35m (10.0ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4955476"], ["longitude", "78.4015274"], ["address", "Raghav"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.361290"], ["updated_at", "2017-04-03 18:24:06.361290"]]
+  [1m[36m (13.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4415008"], ["longitude", "78.3579213"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.384482"], ["updated_at", "2017-04-03 18:24:06.384482"]]
+  [1m[35m (10.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.450508"], ["longitude", "78.382241"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.406621"], ["updated_at", "2017-04-03 18:24:06.406621"]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4470209"], ["longitude", "78.3784238"], ["address", "Shamrock The Irish Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.428816"], ["updated_at", "2017-04-03 18:24:06.428816"]]
+  [1m[35m (77.7ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4577191"], ["longitude", "78.3651168"], ["address", "Stabbs Barbeque"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:06.517867"], ["updated_at", "2017-04-03 18:24:06.517867"]]
+  [1m[36m (55.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.423637"], ["longitude", "78.487901"], ["address", "Courtyard by Marriott Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:16.908284"], ["updated_at", "2017-04-03 18:24:16.908284"]]
+  [1m[35m (31.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:16.952734"], ["updated_at", "2017-04-03 18:24:16.952734"]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:16.974026"], ["updated_at", "2017-04-03 18:24:16.974026"]]
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4394241"], ["longitude", "78.4748989"], ["address", "Manasarovar The Fern"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:16.996110"], ["updated_at", "2017-04-03 18:24:16.996110"]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.3922158"], ["longitude", "78.4775251"], ["address", "Luminous One Continent"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.019427"], ["updated_at", "2017-04-03 18:24:17.019427"]]
+  [1m[35m (7.5ms)[0m  COMMIT
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.041292"], ["updated_at", "2017-04-03 18:24:17.041292"]]
+  [1m[36m (9.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4130944"], ["longitude", "78.4662206"], ["address", "Prasads"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.062880"], ["updated_at", "2017-04-03 18:24:17.062880"]]
+  [1m[35m (10.0ms)[0m  COMMIT
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.085767"], ["updated_at", "2017-04-03 18:24:17.085767"]]
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.107641"], ["updated_at", "2017-04-03 18:24:17.107641"]]
+  [1m[35m (10.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.130259"], ["updated_at", "2017-04-03 18:24:17.130259"]]
+  [1m[36m (9.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4404988"], ["longitude", "78.4975694"], ["address", "Time Square - The Landmark Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.152048"], ["updated_at", "2017-04-03 18:24:17.152048"]]
+  [1m[35m (8.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.174233"], ["updated_at", "2017-04-03 18:24:17.174233"]]
+  [1m[36m (8.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.196371"], ["updated_at", "2017-04-03 18:24:17.196371"]]
+  [1m[35m (8.5ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.233649"], ["updated_at", "2017-04-03 18:24:17.233649"]]
+  [1m[36m (5.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.406311"], ["longitude", "78.463171"], ["address", "Hotel Sandhya"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.252216"], ["updated_at", "2017-04-03 18:24:17.252216"]]
+  [1m[35m (9.9ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.274525"], ["updated_at", "2017-04-03 18:24:17.274525"]]
+  [1m[36m (10.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.422903"], ["longitude", "78.462356"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.295894"], ["updated_at", "2017-04-03 18:24:17.295894"]]
+  [1m[35m (11.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.318593"], ["updated_at", "2017-04-03 18:24:17.318593"]]
+  [1m[36m (10.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.339599"], ["updated_at", "2017-04-03 18:24:17.339599"]]
+  [1m[35m (69.5ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.7ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:17.420411"], ["updated_at", "2017-04-03 18:24:17.420411"]]
+  [1m[36m (15.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:22.750583"], ["updated_at", "2017-04-03 18:24:22.750583"]]
+  [1m[35m (37.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:22.796606"], ["updated_at", "2017-04-03 18:24:22.796606"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:22.818005"], ["updated_at", "2017-04-03 18:24:22.818005"]]
+  [1m[35m (10.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:22.840389"], ["updated_at", "2017-04-03 18:24:22.840389"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:22.863149"], ["updated_at", "2017-04-03 18:24:22.863149"]]
+  [1m[35m (9.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (31.1ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:22.885026"], ["updated_at", "2017-04-03 18:24:22.885026"]]
+  [1m[36m (36.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:22.963181"], ["updated_at", "2017-04-03 18:24:22.963181"]]
+  [1m[35m (10.7ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4346731"], ["longitude", "78.3865901"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:22.985114"], ["updated_at", "2017-04-03 18:24:22.985114"]]
+  [1m[36m (11.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.440366"], ["longitude", "78.393559"], ["address", "Ginger Court Restaurant & Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:23.007452"], ["updated_at", "2017-04-03 18:24:23.007452"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.434512"], ["longitude", "78.3870547"], ["address", "News Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:23.030020"], ["updated_at", "2017-04-03 18:24:23.030020"]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4345352"], ["longitude", "78.3864202"], ["address", "McDonald's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:23.051877"], ["updated_at", "2017-04-03 18:24:23.051877"]]
+  [1m[35m (11.2ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4415008"], ["longitude", "78.3579213"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:23.074563"], ["updated_at", "2017-04-03 18:24:23.074563"]]
+  [1m[36m (10.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4441826"], ["longitude", "78.3871793"], ["address", "Amantran The Cuisine"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:23.096444"], ["updated_at", "2017-04-03 18:24:23.096444"]]
+  [1m[35m (10.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.450508"], ["longitude", "78.382241"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:23.117104"], ["updated_at", "2017-04-03 18:24:23.117104"]]
+  [1m[36m (12.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4470209"], ["longitude", "78.3784238"], ["address", "Shamrock The Irish Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:23.141675"], ["updated_at", "2017-04-03 18:24:23.141675"]]
+  [1m[35m (8.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4577191"], ["longitude", "78.3651168"], ["address", "Stabbs Barbeque"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:23.163345"], ["updated_at", "2017-04-03 18:24:23.163345"]]
+  [1m[36m (10.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.432969"], ["longitude", "78.417398"], ["address", "Southern Spice (since 1999)"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:23.185571"], ["updated_at", "2017-04-03 18:24:23.185571"]]
+  [1m[35m (10.5ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4427425"], ["longitude", "78.3772873"], ["address", "Absolute Barbecue"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:23.207619"], ["updated_at", "2017-04-03 18:24:23.207619"]]
+  [1m[36m (9.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4955476"], ["longitude", "78.4015274"], ["address", "Raghav"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:23.230046"], ["updated_at", "2017-04-03 18:24:23.230046"]]
+  [1m[35m (10.3ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.416204"], ["longitude", "78.416921"], ["address", "SO The Sky Kitchen!"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:23.252784"], ["updated_at", "2017-04-03 18:24:23.252784"]]
+  [1m[36m (9.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (83.6ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:33.584003"], ["updated_at", "2017-04-03 18:24:33.584003"]]
+  [1m[35m (20.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:33.696930"], ["updated_at", "2017-04-03 18:24:33.696930"]]
+  [1m[36m (66.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:33.774863"], ["updated_at", "2017-04-03 18:24:33.774863"]]
+  [1m[35m (11.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:33.795870"], ["updated_at", "2017-04-03 18:24:33.795870"]]
+  [1m[36m (12.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:33.819063"], ["updated_at", "2017-04-03 18:24:33.819063"]]
+  [1m[35m (10.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:33.841436"], ["updated_at", "2017-04-03 18:24:33.841436"]]
+  [1m[36m (10.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:33.863880"], ["updated_at", "2017-04-03 18:24:33.863880"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:33.885927"], ["updated_at", "2017-04-03 18:24:33.885927"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:33.908097"], ["updated_at", "2017-04-03 18:24:33.908097"]]
+  [1m[35m (10.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:33.930314"], ["updated_at", "2017-04-03 18:24:33.930314"]]
+  [1m[36m (10.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:33.953086"], ["updated_at", "2017-04-03 18:24:33.953086"]]
+  [1m[35m (10.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:33.974911"], ["updated_at", "2017-04-03 18:24:33.974911"]]
+  [1m[36m (10.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4346731"], ["longitude", "78.3865901"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:33.996757"], ["updated_at", "2017-04-03 18:24:33.996757"]]
+  [1m[35m (11.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:34.019144"], ["updated_at", "2017-04-03 18:24:34.019144"]]
+  [1m[36m (10.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.440366"], ["longitude", "78.393559"], ["address", "Ginger Court Restaurant & Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:34.041618"], ["updated_at", "2017-04-03 18:24:34.041618"]]
+  [1m[35m (10.4ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.434512"], ["longitude", "78.3870547"], ["address", "News Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:34.063918"], ["updated_at", "2017-04-03 18:24:34.063918"]]
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4345352"], ["longitude", "78.3864202"], ["address", "McDonald's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:34.086202"], ["updated_at", "2017-04-03 18:24:34.086202"]]
+  [1m[35m (10.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4415008"], ["longitude", "78.3579213"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:34.108006"], ["updated_at", "2017-04-03 18:24:34.108006"]]
+  [1m[36m (10.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4441826"], ["longitude", "78.3871793"], ["address", "Amantran The Cuisine"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:34.130346"], ["updated_at", "2017-04-03 18:24:34.130346"]]
+  [1m[35m (10.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.415178"], ["longitude", "78.450246"], ["address", "Barbeque Nation"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:34.152723"], ["updated_at", "2017-04-03 18:24:34.152723"]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.423637"], ["longitude", "78.487901"], ["address", "Courtyard by Marriott Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:39.546988"], ["updated_at", "2017-04-03 18:24:39.546988"]]
+  [1m[35m (19.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:39.573626"], ["updated_at", "2017-04-03 18:24:39.573626"]]
+  [1m[36m (3.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4394241"], ["longitude", "78.4748989"], ["address", "Manasarovar The Fern"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:39.584964"], ["updated_at", "2017-04-03 18:24:39.584964"]]
+  [1m[35m (13.2ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.3922158"], ["longitude", "78.4775251"], ["address", "Luminous One Continent"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:39.607997"], ["updated_at", "2017-04-03 18:24:39.607997"]]
+  [1m[36m (10.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:39.631896"], ["updated_at", "2017-04-03 18:24:39.631896"]]
+  [1m[35m (65.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4130944"], ["longitude", "78.4662206"], ["address", "Prasads"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:39.708395"], ["updated_at", "2017-04-03 18:24:39.708395"]]
+  [1m[36m (44.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4404988"], ["longitude", "78.4975694"], ["address", "Time Square - The Landmark Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:39.764056"], ["updated_at", "2017-04-03 18:24:39.764056"]]
+  [1m[35m (55.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:39.830552"], ["updated_at", "2017-04-03 18:24:39.830552"]]
+  [1m[36m (55.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:39.897432"], ["updated_at", "2017-04-03 18:24:39.897432"]]
+  [1m[35m (66.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:39.975153"], ["updated_at", "2017-04-03 18:24:39.975153"]]
+  [1m[36m (66.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:40.053498"], ["updated_at", "2017-04-03 18:24:40.053498"]]
+  [1m[35m (144.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:40.209686"], ["updated_at", "2017-04-03 18:24:40.209686"]]
+  [1m[36m (54.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.406311"], ["longitude", "78.463171"], ["address", "Hotel Sandhya"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:40.275329"], ["updated_at", "2017-04-03 18:24:40.275329"]]
+  [1m[35m (54.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:40.341638"], ["updated_at", "2017-04-03 18:24:40.341638"]]
+  [1m[36m (44.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.422903"], ["longitude", "78.462356"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:40.397445"], ["updated_at", "2017-04-03 18:24:40.397445"]]
+  [1m[35m (55.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.441151"], ["longitude", "78.5020043"], ["address", "Hotel Baseraa Gardens"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:40.464142"], ["updated_at", "2017-04-03 18:24:40.464142"]]
+  [1m[36m (55.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:40.530717"], ["updated_at", "2017-04-03 18:24:40.530717"]]
+  [1m[35m (55.2ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.3871225"], ["longitude", "78.4763701"], ["address", "Chicken Fast Food Corner"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:40.597334"], ["updated_at", "2017-04-03 18:24:40.597334"]]
+  [1m[36m (55.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:40.664320"], ["updated_at", "2017-04-03 18:24:40.664320"]]
+  [1m[35m (55.2ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:40.730856"], ["updated_at", "2017-04-03 18:24:40.730856"]]
+  [1m[36m (55.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (18.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.423637"], ["longitude", "78.487901"], ["address", "Courtyard by Marriott Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.114625"], ["updated_at", "2017-04-03 18:24:46.114625"]]
+  [1m[35m (44.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.186583"], ["updated_at", "2017-04-03 18:24:46.186583"]]
+  [1m[36m (55.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.253067"], ["updated_at", "2017-04-03 18:24:46.253067"]]
+  [1m[35m (54.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4394241"], ["longitude", "78.4748989"], ["address", "Manasarovar The Fern"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.320545"], ["updated_at", "2017-04-03 18:24:46.320545"]]
+  [1m[36m (54.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.3922158"], ["longitude", "78.4775251"], ["address", "Luminous One Continent"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.387335"], ["updated_at", "2017-04-03 18:24:46.387335"]]
+  [1m[35m (65.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.463891"], ["updated_at", "2017-04-03 18:24:46.463891"]]
+  [1m[36m (11.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4130944"], ["longitude", "78.4662206"], ["address", "Prasads"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.486025"], ["updated_at", "2017-04-03 18:24:46.486025"]]
+  [1m[35m (11.5ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4404988"], ["longitude", "78.4975694"], ["address", "Time Square - The Landmark Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.508852"], ["updated_at", "2017-04-03 18:24:46.508852"]]
+  [1m[36m (10.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.531129"], ["updated_at", "2017-04-03 18:24:46.531129"]]
+  [1m[35m (10.4ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.553165"], ["updated_at", "2017-04-03 18:24:46.553165"]]
+  [1m[36m (10.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.575919"], ["updated_at", "2017-04-03 18:24:46.575919"]]
+  [1m[35m (10.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.597961"], ["updated_at", "2017-04-03 18:24:46.597961"]]
+  [1m[36m (10.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.619738"], ["updated_at", "2017-04-03 18:24:46.619738"]]
+  [1m[35m (10.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.641984"], ["updated_at", "2017-04-03 18:24:46.641984"]]
+  [1m[36m (10.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.665134"], ["updated_at", "2017-04-03 18:24:46.665134"]]
+  [1m[35m (9.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.406311"], ["longitude", "78.463171"], ["address", "Hotel Sandhya"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.686182"], ["updated_at", "2017-04-03 18:24:46.686182"]]
+  [1m[36m (13.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.707394"], ["updated_at", "2017-04-03 18:24:46.707394"]]
+  [1m[35m (13.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.422903"], ["longitude", "78.462356"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.731005"], ["updated_at", "2017-04-03 18:24:46.731005"]]
+  [1m[36m (10.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.753290"], ["updated_at", "2017-04-03 18:24:46.753290"]]
+  [1m[35m (10.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:46.775397"], ["updated_at", "2017-04-03 18:24:46.775397"]]
+  [1m[36m (10.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.456512"], ["updated_at", "2017-04-03 18:24:57.456512"]]
+  [1m[35m (22.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.486979"], ["updated_at", "2017-04-03 18:24:57.486979"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.509735"], ["updated_at", "2017-04-03 18:24:57.509735"]]
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.531695"], ["updated_at", "2017-04-03 18:24:57.531695"]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.553530"], ["updated_at", "2017-04-03 18:24:57.553530"]]
+  [1m[35m (11.1ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.576097"], ["updated_at", "2017-04-03 18:24:57.576097"]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (34.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.598242"], ["updated_at", "2017-04-03 18:24:57.598242"]]
+  [1m[35m (33.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.675698"], ["updated_at", "2017-04-03 18:24:57.675698"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4394241"], ["longitude", "78.4748989"], ["address", "Manasarovar The Fern"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.698337"], ["updated_at", "2017-04-03 18:24:57.698337"]]
+  [1m[35m (10.4ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.720205"], ["updated_at", "2017-04-03 18:24:57.720205"]]
+  [1m[36m (11.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.742683"], ["updated_at", "2017-04-03 18:24:57.742683"]]
+  [1m[35m (10.4ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.765280"], ["updated_at", "2017-04-03 18:24:57.765280"]]
+  [1m[36m (10.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.787122"], ["updated_at", "2017-04-03 18:24:57.787122"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4130944"], ["longitude", "78.4662206"], ["address", "Prasads"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.809360"], ["updated_at", "2017-04-03 18:24:57.809360"]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.831690"], ["updated_at", "2017-04-03 18:24:57.831690"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4346731"], ["longitude", "78.3865901"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.853627"], ["updated_at", "2017-04-03 18:24:57.853627"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.440366"], ["longitude", "78.393559"], ["address", "Ginger Court Restaurant & Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.876092"], ["updated_at", "2017-04-03 18:24:57.876092"]]
+  [1m[35m (10.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.434512"], ["longitude", "78.3870547"], ["address", "News Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.898212"], ["updated_at", "2017-04-03 18:24:57.898212"]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.415178"], ["longitude", "78.450246"], ["address", "Barbeque Nation"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.920323"], ["updated_at", "2017-04-03 18:24:57.920323"]]
+  [1m[35m (11.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.422903"], ["longitude", "78.462356"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:24:57.957508"], ["updated_at", "2017-04-03 18:24:57.957508"]]
+  [1m[36m (6.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.313539"], ["updated_at", "2017-04-03 18:25:03.313539"]]
+  [1m[35m (31.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.354810"], ["updated_at", "2017-04-03 18:25:03.354810"]]
+  [1m[36m (9.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.376888"], ["updated_at", "2017-04-03 18:25:03.376888"]]
+  [1m[35m (9.2ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.398626"], ["updated_at", "2017-04-03 18:25:03.398626"]]
+  [1m[36m (9.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.420381"], ["updated_at", "2017-04-03 18:25:03.420381"]]
+  [1m[35m (10.7ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.443741"], ["updated_at", "2017-04-03 18:25:03.443741"]]
+  [1m[36m (9.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.465028"], ["updated_at", "2017-04-03 18:25:03.465028"]]
+  [1m[35m (10.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4346731"], ["longitude", "78.3865901"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.487123"], ["updated_at", "2017-04-03 18:25:03.487123"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.440366"], ["longitude", "78.393559"], ["address", "Ginger Court Restaurant & Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.509388"], ["updated_at", "2017-04-03 18:25:03.509388"]]
+  [1m[35m (11.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.434512"], ["longitude", "78.3870547"], ["address", "News Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.531985"], ["updated_at", "2017-04-03 18:25:03.531985"]]
+  [1m[36m (9.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4345352"], ["longitude", "78.3864202"], ["address", "McDonald's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.554265"], ["updated_at", "2017-04-03 18:25:03.554265"]]
+  [1m[35m (10.2ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4415008"], ["longitude", "78.3579213"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.576102"], ["updated_at", "2017-04-03 18:25:03.576102"]]
+  [1m[36m (10.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4441826"], ["longitude", "78.3871793"], ["address", "Amantran The Cuisine"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.598447"], ["updated_at", "2017-04-03 18:25:03.598447"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.620814"], ["updated_at", "2017-04-03 18:25:03.620814"]]
+  [1m[36m (10.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4955476"], ["longitude", "78.4015274"], ["address", "Raghav"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.643273"], ["updated_at", "2017-04-03 18:25:03.643273"]]
+  [1m[35m (10.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.450508"], ["longitude", "78.382241"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.665026"], ["updated_at", "2017-04-03 18:25:03.665026"]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4470209"], ["longitude", "78.3784238"], ["address", "Shamrock The Irish Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.687201"], ["updated_at", "2017-04-03 18:25:03.687201"]]
+  [1m[35m (11.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4577191"], ["longitude", "78.3651168"], ["address", "Stabbs Barbeque"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.709598"], ["updated_at", "2017-04-03 18:25:03.709598"]]
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.432969"], ["longitude", "78.417398"], ["address", "Southern Spice (since 1999)"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.732064"], ["updated_at", "2017-04-03 18:25:03.732064"]]
+  [1m[35m (10.5ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.416204"], ["longitude", "78.416921"], ["address", "SO The Sky Kitchen!"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:03.754119"], ["updated_at", "2017-04-03 18:25:03.754119"]]
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.423637"], ["longitude", "78.487901"], ["address", "Courtyard by Marriott Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.300367"], ["updated_at", "2017-04-03 18:25:09.300367"]]
+  [1m[35m (23.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.332413"], ["updated_at", "2017-04-03 18:25:09.332413"]]
+  [1m[36m (9.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.354376"], ["updated_at", "2017-04-03 18:25:09.354376"]]
+  [1m[35m (10.5ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4394241"], ["longitude", "78.4748989"], ["address", "Manasarovar The Fern"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.377189"], ["updated_at", "2017-04-03 18:25:09.377189"]]
+  [1m[36m (9.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.3922158"], ["longitude", "78.4775251"], ["address", "Luminous One Continent"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.398839"], ["updated_at", "2017-04-03 18:25:09.398839"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (33.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.421041"], ["updated_at", "2017-04-03 18:25:09.421041"]]
+  [1m[36m (33.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4130944"], ["longitude", "78.4662206"], ["address", "Prasads"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.498794"], ["updated_at", "2017-04-03 18:25:09.498794"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4404988"], ["longitude", "78.4975694"], ["address", "Time Square - The Landmark Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.520705"], ["updated_at", "2017-04-03 18:25:09.520705"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.543061"], ["updated_at", "2017-04-03 18:25:09.543061"]]
+  [1m[35m (10.9ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.565310"], ["updated_at", "2017-04-03 18:25:09.565310"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.587547"], ["updated_at", "2017-04-03 18:25:09.587547"]]
+  [1m[35m (11.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.610025"], ["updated_at", "2017-04-03 18:25:09.610025"]]
+  [1m[36m (10.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.632014"], ["updated_at", "2017-04-03 18:25:09.632014"]]
+  [1m[35m (11.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.654204"], ["updated_at", "2017-04-03 18:25:09.654204"]]
+  [1m[36m (11.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.406311"], ["longitude", "78.463171"], ["address", "Hotel Sandhya"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.676347"], ["updated_at", "2017-04-03 18:25:09.676347"]]
+  [1m[35m (10.7ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.698829"], ["updated_at", "2017-04-03 18:25:09.698829"]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.720865"], ["updated_at", "2017-04-03 18:25:09.720865"]]
+  [1m[35m (11.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.422903"], ["longitude", "78.462356"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.743562"], ["updated_at", "2017-04-03 18:25:09.743562"]]
+  [1m[36m (9.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.765318"], ["updated_at", "2017-04-03 18:25:09.765318"]]
+  [1m[35m (10.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:09.787530"], ["updated_at", "2017-04-03 18:25:09.787530"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.441766"], ["longitude", "78.344594"], ["address", "Ellaa Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.153406"], ["updated_at", "2017-04-03 18:25:20.153406"]]
+  [1m[35m (24.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.186709"], ["updated_at", "2017-04-03 18:25:20.186709"]]
+  [1m[36m (4.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.199052"], ["updated_at", "2017-04-03 18:25:20.199052"]]
+  [1m[35m (11.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.221351"], ["updated_at", "2017-04-03 18:25:20.221351"]]
+  [1m[36m (11.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.244673"], ["updated_at", "2017-04-03 18:25:20.244673"]]
+  [1m[35m (9.8ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4689321"], ["longitude", "78.3679944"], ["address", "My Place Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.266091"], ["updated_at", "2017-04-03 18:25:20.266091"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.288048"], ["updated_at", "2017-04-03 18:25:20.288048"]]
+  [1m[35m (11.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.310404"], ["updated_at", "2017-04-03 18:25:20.310404"]]
+  [1m[36m (10.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.332669"], ["updated_at", "2017-04-03 18:25:20.332669"]]
+  [1m[35m (10.7ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.355110"], ["updated_at", "2017-04-03 18:25:20.355110"]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.377019"], ["updated_at", "2017-04-03 18:25:20.377019"]]
+  [1m[35m (11.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.399407"], ["updated_at", "2017-04-03 18:25:20.399407"]]
+  [1m[36m (10.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4346731"], ["longitude", "78.3865901"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.421429"], ["updated_at", "2017-04-03 18:25:20.421429"]]
+  [1m[35m (11.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (35.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.440366"], ["longitude", "78.393559"], ["address", "Ginger Court Restaurant & Bar"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.443934"], ["updated_at", "2017-04-03 18:25:20.443934"]]
+  [1m[36m (42.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.533043"], ["updated_at", "2017-04-03 18:25:20.533043"]]
+  [1m[35m (10.5ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.434512"], ["longitude", "78.3870547"], ["address", "News Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.554913"], ["updated_at", "2017-04-03 18:25:20.554913"]]
+  [1m[36m (11.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4345352"], ["longitude", "78.3864202"], ["address", "McDonald's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.577003"], ["updated_at", "2017-04-03 18:25:20.577003"]]
+  [1m[35m (11.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4415008"], ["longitude", "78.3579213"], ["address", "Domino's Pizza"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.599438"], ["updated_at", "2017-04-03 18:25:20.599438"]]
+  [1m[36m (10.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4441826"], ["longitude", "78.3871793"], ["address", "Amantran The Cuisine"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.622032"], ["updated_at", "2017-04-03 18:25:20.622032"]]
+  [1m[35m (10.7ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.415178"], ["longitude", "78.450246"], ["address", "Barbeque Nation"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:20.644347"], ["updated_at", "2017-04-03 18:25:20.644347"]]
+  [1m[36m (10.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.423637"], ["longitude", "78.487901"], ["address", "Courtyard by Marriott Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.060594"], ["updated_at", "2017-04-03 18:25:31.060594"]]
+  [1m[35m (28.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4394241"], ["longitude", "78.4748989"], ["address", "Manasarovar The Fern"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.099717"], ["updated_at", "2017-04-03 18:25:31.099717"]]
+  [1m[36m (9.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.122306"], ["updated_at", "2017-04-03 18:25:31.122306"]]
+  [1m[35m (9.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.3922158"], ["longitude", "78.4775251"], ["address", "Luminous One Continent"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.144364"], ["updated_at", "2017-04-03 18:25:31.144364"]]
+  [1m[36m (10.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.166530"], ["updated_at", "2017-04-03 18:25:31.166530"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4404988"], ["longitude", "78.4975694"], ["address", "Time Square - The Landmark Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.189125"], ["updated_at", "2017-04-03 18:25:31.189125"]]
+  [1m[36m (10.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4130944"], ["longitude", "78.4662206"], ["address", "Prasads"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.210781"], ["updated_at", "2017-04-03 18:25:31.210781"]]
+  [1m[35m (11.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.233137"], ["updated_at", "2017-04-03 18:25:31.233137"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.255530"], ["updated_at", "2017-04-03 18:25:31.255530"]]
+  [1m[35m (10.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.277561"], ["updated_at", "2017-04-03 18:25:31.277561"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.299908"], ["updated_at", "2017-04-03 18:25:31.299908"]]
+  [1m[35m (10.7ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.322178"], ["updated_at", "2017-04-03 18:25:31.322178"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.406311"], ["longitude", "78.463171"], ["address", "Hotel Sandhya"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.344482"], ["updated_at", "2017-04-03 18:25:31.344482"]]
+  [1m[35m (10.7ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.366507"], ["updated_at", "2017-04-03 18:25:31.366507"]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.441151"], ["longitude", "78.5020043"], ["address", "Hotel Baseraa Gardens"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.388666"], ["updated_at", "2017-04-03 18:25:31.388666"]]
+  [1m[35m (10.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.422903"], ["longitude", "78.462356"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.410898"], ["updated_at", "2017-04-03 18:25:31.410898"]]
+  [1m[36m (10.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.3871225"], ["longitude", "78.4763701"], ["address", "Chicken Fast Food Corner"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.433191"], ["updated_at", "2017-04-03 18:25:31.433191"]]
+  [1m[35m (11.9ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.455387"], ["updated_at", "2017-04-03 18:25:31.455387"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.477703"], ["updated_at", "2017-04-03 18:25:31.477703"]]
+  [1m[35m (10.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.415178"], ["longitude", "78.450246"], ["address", "Barbeque Nation"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:31.499955"], ["updated_at", "2017-04-03 18:25:31.499955"]]
+  [1m[36m (10.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (8.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.423637"], ["longitude", "78.487901"], ["address", "Courtyard by Marriott Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:36.998645"], ["updated_at", "2017-04-03 18:25:36.998645"]]
+  [1m[35m (38.2ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.056242"], ["updated_at", "2017-04-03 18:25:37.056242"]]
+  [1m[36m (10.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4394241"], ["longitude", "78.4748989"], ["address", "Manasarovar The Fern"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.078341"], ["updated_at", "2017-04-03 18:25:37.078341"]]
+  [1m[35m (9.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.3922158"], ["longitude", "78.4775251"], ["address", "Luminous One Continent"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.100045"], ["updated_at", "2017-04-03 18:25:37.100045"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.122460"], ["updated_at", "2017-04-03 18:25:37.122460"]]
+  [1m[35m (11.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4404988"], ["longitude", "78.4975694"], ["address", "Time Square - The Landmark Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.144744"], ["updated_at", "2017-04-03 18:25:37.144744"]]
+  [1m[36m (10.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4130944"], ["longitude", "78.4662206"], ["address", "Prasads"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.166685"], ["updated_at", "2017-04-03 18:25:37.166685"]]
+  [1m[35m (10.8ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.189103"], ["updated_at", "2017-04-03 18:25:37.189103"]]
+  [1m[36m (10.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.211280"], ["updated_at", "2017-04-03 18:25:37.211280"]]
+  [1m[35m (10.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.233511"], ["updated_at", "2017-04-03 18:25:37.233511"]]
+  [1m[36m (9.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.256301"], ["updated_at", "2017-04-03 18:25:37.256301"]]
+  [1m[35m (10.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.277808"], ["updated_at", "2017-04-03 18:25:37.277808"]]
+  [1m[36m (10.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.406311"], ["longitude", "78.463171"], ["address", "Hotel Sandhya"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.300002"], ["updated_at", "2017-04-03 18:25:37.300002"]]
+  [1m[35m (11.0ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.441151"], ["longitude", "78.5020043"], ["address", "Hotel Baseraa Gardens"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.322654"], ["updated_at", "2017-04-03 18:25:37.322654"]]
+  [1m[36m (10.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4357942"], ["longitude", "78.4531552"], ["address", "Country Oven"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.344553"], ["updated_at", "2017-04-03 18:25:37.344553"]]
+  [1m[35m (10.7ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.422903"], ["longitude", "78.462356"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.366878"], ["updated_at", "2017-04-03 18:25:37.366878"]]
+  [1m[36m (10.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.3871225"], ["longitude", "78.4763701"], ["address", "Chicken Fast Food Corner"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.389018"], ["updated_at", "2017-04-03 18:25:37.389018"]]
+  [1m[35m (11.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4480969"], ["longitude", "78.3791337"], ["address", "Little Italy"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.411369"], ["updated_at", "2017-04-03 18:25:37.411369"]]
+  [1m[36m (10.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4267384"], ["longitude", "78.4383866"], ["address", "Rajdhani"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.433504"], ["updated_at", "2017-04-03 18:25:37.433504"]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.396789"], ["longitude", "78.4239551"], ["address", "Subway"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:37.455952"], ["updated_at", "2017-04-03 18:25:37.455952"]]
+  [1m[36m (10.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.423637"], ["longitude", "78.487901"], ["address", "Courtyard by Marriott Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:42.765884"], ["updated_at", "2017-04-03 18:25:42.765884"]]
+  [1m[35m (49.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.443152"], ["longitude", "78.376683"], ["address", "Lemon Tree Premier, HITEC City, Hyderabad"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:42.833641"], ["updated_at", "2017-04-03 18:25:42.833641"]]
+  [1m[36m (67.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4394241"], ["longitude", "78.4748989"], ["address", "Manasarovar The Fern"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:42.912508"], ["updated_at", "2017-04-03 18:25:42.912508"]]
+  [1m[35m (75.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.3922158"], ["longitude", "78.4775251"], ["address", "Luminous One Continent"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:43.000494"], ["updated_at", "2017-04-03 18:25:43.000494"]]
+  [1m[36m (66.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4084071"], ["longitude", "78.4390543"], ["address", "Far East - Ohri's"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:43.078244"], ["updated_at", "2017-04-03 18:25:43.078244"]]
+  [1m[35m (88.7ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4404988"], ["longitude", "78.4975694"], ["address", "Time Square - The Landmark Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:43.178235"], ["updated_at", "2017-04-03 18:25:43.178235"]]
+  [1m[36m (100.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4130944"], ["longitude", "78.4662206"], ["address", "Prasads"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:43.289687"], ["updated_at", "2017-04-03 18:25:43.289687"]]
+  [1m[35m (99.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.429151"], ["longitude", "78.418418"], ["address", "Celebrations Restaurant"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:43.400580"], ["updated_at", "2017-04-03 18:25:43.400580"]]
+  [1m[36m (66.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.4083123"], ["longitude", "78.4504607"], ["address", "Pizza Hut"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:43.477374"], ["updated_at", "2017-04-03 18:25:43.477374"]]
+  [1m[35m (89.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4423539"], ["longitude", "78.3817904"], ["address", "The Westin Hyderabad Mindspace"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:43.578124"], ["updated_at", "2017-04-03 18:25:43.578124"]]
+  [1m[36m (68.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["latitude", "17.418706"], ["longitude", "78.448737"], ["address", "Hard Rock Cafe"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:43.654717"], ["updated_at", "2017-04-03 18:25:43.654717"]]
+  [1m[35m (70.5ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "parking_spaces" ("latitude", "longitude", "address", "user_id", "cost", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["latitude", "17.4253472"], ["longitude", "78.423252"], ["address", "Ebony Boutique Hotel"], ["user_id", 1], ["cost", 500], ["created_at", "2017-04-03 18:25:43.733543"], ["updated_at", "2017-04-03 18:25:43.733543"]]
+  [1m[36m (27.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (169.6ms)[0m  ROLLBACK
+  [1m[36m (2.4ms)[0m  [1mSELECT COUNT(*) FROM "parking_spaces"[0m
+  [1m[36mParkingSpace Load (2.2ms)[0m  [1mSELECT  "parking_spaces".* FROM "parking_spaces"  ORDER BY "parking_spaces"."id" DESC LIMIT 1[0m
+  [1m[35mParkingSpace Load (15.9ms)[0m  SELECT "parking_spaces".* FROM "parking_spaces"
+  [1m[36mParkingSpace Load (15.4ms)[0m  [1mSELECT "parking_spaces".* FROM "parking_spaces"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-04 00:05:27 +0530
+Processing by LandingController#index as HTML
+Geokit is using the domain: localhost
+  Rendered landing/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 206ms (Views: 203.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/parking_spaces/search" for 127.0.0.1 at 2017-04-04 00:05:30 +0530
+Processing by ParkingSpacesController#search as HTML
+Geokit is using the domain: localhost
+  Rendered parking_spaces/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 235ms (Views: 232.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/parking_spaces/search_api" for 127.0.0.1 at 2017-04-04 00:05:37 +0530
+Processing by ParkingSpacesController#search_api as */*
+  Parameters: {"lat"=>"17.385044", "long"=>"78.486671"}
+Geokit is using the domain: localhost
+  [1m[36mParkingSpace Load (28.4ms)[0m  [1mSELECT "parking_spaces".* FROM "parking_spaces" WHERE (parking_spaces.latitude IS NOT NULL AND parking_spaces.longitude IS NOT NULL) AND (parking_spaces.latitude>9.298476717947054 AND parking_spaces.latitude<25.47161128205294 AND parking_spaces.longitude>70.0185002417737 AND parking_spaces.longitude<86.95484175822632) AND ((
+          (ACOS(least(1,COS(0.30342625840408505)*COS(1.3698508278795505)*COS(RADIANS(parking_spaces.latitude))*COS(RADIANS(parking_spaces.longitude))+
+          COS(0.30342625840408505)*SIN(1.3698508278795505)*COS(RADIANS(parking_spaces.latitude))*SIN(RADIANS(parking_spaces.longitude))+
+          SIN(0.30342625840408505)*SIN(RADIANS(parking_spaces.latitude))))*6376.77271)
+          <= 900))[0m
+Completed 200 OK in 1398ms (Views: 1365.8ms | ActiveRecord: 28.4ms)
+
+
+Started POST "/parking_spaces/search_api" for 127.0.0.1 at 2017-04-04 00:06:18 +0530
+Processing by ParkingSpacesController#search_api as */*
+  Parameters: {"lat"=>"17.3931632", "long"=>"78.47607770000002"}
+Geokit is using the domain: localhost
+  [1m[35mParkingSpace Load (26.8ms)[0m  SELECT "parking_spaces".* FROM "parking_spaces" WHERE (parking_spaces.latitude IS NOT NULL AND parking_spaces.longitude IS NOT NULL) AND (parking_spaces.latitude>9.306595917947057 AND parking_spaces.latitude<25.479730482052943 AND parking_spaces.longitude>70.00753657710648 AND parking_spaces.longitude<86.94461882289355) AND ((
+          (ACOS(least(1,COS(0.303567965176713)*COS(1.369665939915899)*COS(RADIANS(parking_spaces.latitude))*COS(RADIANS(parking_spaces.longitude))+
+          COS(0.303567965176713)*SIN(1.369665939915899)*COS(RADIANS(parking_spaces.latitude))*SIN(RADIANS(parking_spaces.longitude))+
+          SIN(0.303567965176713)*SIN(RADIANS(parking_spaces.latitude))))*6376.77271)
+          <= 900))
+Completed 200 OK in 1461ms (Views: 1429.7ms | ActiveRecord: 26.8ms)

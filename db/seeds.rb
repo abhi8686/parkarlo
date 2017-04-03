@@ -21,10 +21,11 @@ $data = [[17.482899,78.399076]]
 i =0
 while i < 100 do 
   begin 
+    puts i 
     new_data = $data[i]
     lat = new_data[0]
     lng = new_data[1]
-    sleep 5
+    # sleep 5
     response = open("https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + lat.to_s + "," + lng.to_s + "&radius=10000&type=restaurant&keyword=&key=AIzaSyAJdvRiaxuKEuL8RhE4TE-Hzh5aqEPiz4o").read
     response = JSON.parse(response)
     scrape_data(response["results"])
